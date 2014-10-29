@@ -1,7 +1,7 @@
 {
   "name": "zetta-analog-edison-driver",
-  "version": "0.1.1",
-  "description": "ANALOG Device for use in Zetta on the Intel Edison",
+  "version": "0.2.0",
+  "description": "Analog Device for use in Zetta on the Intel Edison",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
