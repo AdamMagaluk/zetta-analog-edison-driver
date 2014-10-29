@@ -1,6 +1,6 @@
 {
   "name": "zetta-analog-edison-driver",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Analog Device for use in Zetta on the Intel Edison",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "mraa-js": "^0.1.0",
-    "zetta-device": "~0.7.0",
-    "zetta-scout": "~0.3.0"
+    "zetta-device": "^0.8.0",
+    "zetta-scout": "^0.3.0"
   },
   "bugs": {
     "url": "https://github.com/landlessness/zetta-analog-edison-driver/issues"
