@@ -1,31 +1,32 @@
 {
-  "name": "zetta-led-edison-driver",
-  "version": "0.1.0",
-  "description": "LED Device for use in Zetta on the Intel Edison",
+  "name": "zetta-analog-edison-driver",
+  "version": "0.1.1",
+  "description": "ANALOG Device for use in Zetta on the Intel Edison",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/landlessness/zetta-led-bonescript-driver.git"
+    "url": "https://github.com/landlessness/zetta-analog-edison-driver.git"
   },
   "keywords": [
     "zetta",
     "intel",
     "edison",
-    "led"
+    "analog"
   ],
   "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "mraa-js": "^0.1.0",
     "zetta-device": "~0.7.0",
     "zetta-scout": "~0.3.0"
   },
   "bugs": {
-    "url": "https://github.com/landlessness/zetta-led-bonescript-driver/issues"
+    "url": "https://github.com/landlessness/zetta-analog-edison-driver/issues"
   },
-  "homepage": "https://github.com/landlessness/zetta-led-bonescript-driver",
+  "homepage": "https://github.com/landlessness/zetta-analog-edison-driver",
   "directories": {
     "example": "examples"
   },

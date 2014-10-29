@@ -1,22 +1,20 @@
-# LED Device for Intel Edison
+# Analog Device for Intel Edison
 
-This is a LED device for use in the Zetta platform on Beaglebone
+This is an analog device for use in the Zetta platform on Edison
 
-##Installation
+## Installation
 
-`npm install zetta-led-edison-driver`
+`npm install zetta-analog-edison-driver`
 
-##Usage
+## Usage
 
 To use simply call the `use()` function in your code to use this device.
 
 ```javascript
 var zetta = require('zetta');
-var LEDs = require('zetta-led-edison-driver');
+var Analog = require('zetta-analog-edison-driver');
 
 zetta()
-  .use(LEDs, 13)
-  .listen(1337, function(){
-    console.log('Zetta is running at http://localhost:1337');
-  });
+  .use(Analog, 0)
+  .listen(1337);
 ```
